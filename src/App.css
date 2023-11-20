@@ -1,0 +1,31 @@
+
+.buttons{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+
+.russian {
+  background: url(./pictures/ru.png) no-repeat top right;
+  background-position: center;
+  background-size: cover;
+  height: 11px;
+  width: 16px;
+  border: 0.1px solid black;
+}
+.english {
+  background: url(./pictures/en.png) no-repeat top right;
+  background-position: center;
+  background-size: cover;
+  height: 11px;
+  width: 16px;
+  border: 0.1px solid black;
+}
+.photo {
+  background: url(/src/pictures/photo.jpg);
+  height: 260px;
+  width: 200px;
+  border: 1px solid green;
+  border-radius: 5%;
+  box-shadow: 5px 3px 3px black
+}
